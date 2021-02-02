@@ -30,7 +30,7 @@ add_library(ffmpeg
 #设置动态库路径
 set_target_properties(ffmpeg
                       PROPERTIES IMPORTED_LOCATION
-                      ../../../../src/main/jniLibs/armeabi-v7a/libffmpegjni.so
+                      ../../../../src/main/jniLibs/arm64-v8a/libffmpegjni.so
                         )
 
 target_link_libraries( # Specifies the target library.
